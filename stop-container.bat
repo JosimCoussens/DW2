@@ -1,6 +1,2 @@
-# Stop de Docker-container
-docker stop demo-container
-
-# Verwijder de Docker-container
-docker rm demo-container
-
+docker stop demo-site-container
+docker rm demo-site-container
