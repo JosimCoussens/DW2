@@ -1,1 +1,6 @@
-docker stop $(docker ps -q --filter ancestor=demo-site)
+# Stop de Docker-container
+docker stop demo-container
+
+# Verwijder de Docker-container
+docker rm demo-container
+
